@@ -15,17 +15,30 @@
 
 **Diagram of the Board:**
 
-![Yaswanth](https://github.com/user-attachments/assets/e84a97b3-e6a4-4851-9cf2-6fa221dcd4c1)
-))
+![Screenshot (1702)](https://github.com/user-attachments/assets/07aac305-b438-47a6-8a4c-d31501a1a79c)
+
 
 **Chip/Package:**
 
-![Yaswanth chip level  3 -2](https://github.com/user-attachments/assets/a71662ae-9e7f-4afc-a314-440e6bab43f2)
+![Screenshot (1703)](https://github.com/user-attachments/assets/880f7d8d-ddec-4f84-9d05-999cf02ca509)
 
 
 - The chip is positioned at the center or one side of the package and connected to the outer environment.
 
+![Screenshot (1707)](https://github.com/user-attachments/assets/2bd296c6-4ff8-415b-8074-16dd0a771a89)
+
+
+- And if we open the chip we will have
+
+
+![Screenshot (1708)](https://github.com/user-attachments/assets/11378c8d-0f0d-4017-bf2a-a3f2e1a0ec6d)
+
+
+
 #### RISC-V ISA Example
+
+![Screenshot (1712)](https://github.com/user-attachments/assets/1b2935bc-2bb5-4db0-86a9-0410ef039482)
+
 
 - **Foundry**: The foundry plays a crucial role in determining the chip's performance. A foundry is a factory that manufactures chips using specialized machines.
 - **IP (Intellectual Property)**: Requires intelligence to design blocks within a chip.
