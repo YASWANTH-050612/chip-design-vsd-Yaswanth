@@ -1,4 +1,4 @@
-# chip-design-vsd-Yaswanth
+# Chip-design-vsd-Yaswanth
 
 
 
@@ -15,11 +15,11 @@
 
 **Diagram of the Board:**
 
-![Arduino Board Diagram](insert-image-url)
+
 
 **Chip/Package:**
 
-![Chip Package Diagram](insert-image-url)
+
 
 - The chip is positioned at the center or one side of the package and connected to the outer environment.
 
