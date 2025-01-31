@@ -15,7 +15,7 @@
 
 **Diagram of the Board:**
 
-![Yaswanth](![Yaswant chip level 3   -1](https://github.com/user-attachments/assets/e84a97b3-e6a4-4851-9cf2-6fa221dcd4c1)
+![Yaswanth](https://github.com/user-attachments/assets/e84a97b3-e6a4-4851-9cf2-6fa221dcd4c1)
 ))
 
 **Chip/Package:**
