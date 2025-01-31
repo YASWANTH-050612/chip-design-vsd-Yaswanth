@@ -15,7 +15,7 @@
 
 **Diagram of the Board:**
 
-![Yaswanth](Screenhot (1702))
+![Yaswanth](Screenhot(1702))
 
 **Chip/Package:**
 
