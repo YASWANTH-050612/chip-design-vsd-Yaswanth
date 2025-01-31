@@ -149,7 +149,9 @@ PDK  =  The interface between the FAB and the designers
 
 4. **Clock Tree Synthesis (CTS)**: Create the clock network.
 
-![Screenshot (1752)](https://github.com/user-attachments/assets/5a245469-91af-4ef5-b1ba-529ea6960e85)
+
+
+![Screenshot (1752)](https://github.com/user-attachments/assets/45cc936a-bd1f-41b8-b244-39fc8c300a33)
 
 
 5. **Routing**: Route the connections between cells.
@@ -221,26 +223,132 @@ After **synthesis**, we follow steps like:
 
 4. **Fake ant , diodes and Insertion Script / Dealing with Antenna Rules Violation**
 
-![Screenshot (1781)](https://github.com/user-attachments/assets/6d029065-6ef6-4fca-86eb-9b3c39ff420b)
+![Screenshot (1781)](https://github.com/user-attachments/assets/c76e50fa-3eb2-4f1c-bb21-9e00dc57de44)
 
+![Screenshot (1783)](https://github.com/user-attachments/assets/8228a72b-aa60-44a7-afe9-8492e8ae1716)
+
+![Screenshot (1784)](https://github.com/user-attachments/assets/ac0e4181-176d-401b-bfba-8b4fdcba8cc3)
 
 
 
 5. **RC Extraction** → **STA (Static Timing Analysis)** → **Physical Verification**.
 
+![Screenshot (1785)](https://github.com/user-attachments/assets/28042fba-da7f-4b50-bbf6-4d603a45270e)
+
+![Screenshot (1787)](https://github.com/user-attachments/assets/8d2b1aa1-e9e8-46bf-bab0-61eebd8f1200)
+
 
 
 #### Define Width and Height of Core and Die
 
-- **Core**: The central region that holds the logic cells.
+![Screenshot (1788)](https://github.com/user-attachments/assets/c91957c7-efc1-4e7f-8642-9344964574c4)
+
+![Screenshot (1789)](https://github.com/user-attachments/assets/5e23dc44-ee0d-4eb2-999b-73988e071ec5)
+
+![Screenshot (1790)](https://github.com/user-attachments/assets/6c054ca2-e2ec-4a62-b15c-d419f93e5da0)
+
+![Screenshot (1791)](https://github.com/user-attachments/assets/0bab6e5a-3242-4c58-8070-a0decc85dd5f)
+
+
+- **Core**: The central region that holds the logic cells
+
+![Screenshot (1792)](https://github.com/user-attachments/assets/50e16f8f-0094-44eb-8bd1-c7b8441f998a)
+
+
 - **Die**: The overall chip's physical area.
 
-#### Example: Placement of Cells
+![Screenshot (1793)](https://github.com/user-attachments/assets/3fba0cc2-f10b-440a-938c-2e7634563c1b)
+
+#### Dimensions
+
+![Screenshot (1794)](https://github.com/user-attachments/assets/bbc306bf-9bcf-4031-a85e-7f5dd5aac829)
+
+![Screenshot (1797)](https://github.com/user-attachments/assets/757d7ca1-68e4-4d72-9c4f-2fb393a4bab8)
+
+![Screenshot (1798)](https://github.com/user-attachments/assets/25fa4588-3df4-4e8a-a755-f78b13c3a7f9)
+
+![Screenshot (1799)](https://github.com/user-attachments/assets/1c882f37-a76f-4274-97a3-f8ae3272c9cc)
+
+![Screenshot (1802)](https://github.com/user-attachments/assets/4617dd17-c616-40e0-9756-68c4476ff62a)
+
+![Screenshot (1803)](https://github.com/user-attachments/assets/0058a545-c2bc-4fb9-8522-d8f49dc98e4b)
+
+![Screenshot (1806)](https://github.com/user-attachments/assets/945cfcf1-13b6-49d5-852c-aa6ac0cc70db)
+
+![Screenshot (1807)](https://github.com/user-attachments/assets/551b7b3f-cc7e-4c6c-97d2-5433f430b667)
+
+![Screenshot (1808)](https://github.com/user-attachments/assets/496e2f71-f9dc-4c48-90b3-ad24cf7629ae)
+
+![Screenshot (1809)](https://github.com/user-attachments/assets/041ef5ac-2d2f-43e5-8696-96b759cfcb1e)
+
+![Screenshot (1810)](https://github.com/user-attachments/assets/6490fd0d-37b6-498d-b94d-05380778321d)
+
+
+#### Placement of Cells
+
+
+![Screenshot (1823)](https://github.com/user-attachments/assets/90f0fe1d-b563-4554-8c25-58e3cf37fda6)
+
+![Screenshot (1824)](https://github.com/user-attachments/assets/a8dfc17a-bff6-4a83-a634-1acc52966ffe)
+
+![Screenshot (1825)](https://github.com/user-attachments/assets/d5d71e81-eba2-4c38-8780-8dedf87c28ee)
+
+![Screenshot (1826)](https://github.com/user-attachments/assets/b6867868-e3bd-42e3-8de8-27c330277a14)
+
+![Screenshot (1827)](https://github.com/user-attachments/assets/8d68405c-180f-46dc-9592-b2d9b88c4e16)
+
 
 - Pre-placed cells should be surrounded by decoupling capacitors.
 - The core of the chip should contain all logical cells.
 
+
+#### Surround the pre placed cellswith decoupling capacitors
+
+
+![Screenshot (1828)](https://github.com/user-attachments/assets/7b06a313-6aa6-45db-9bf0-c41220479e12)
+
+![Screenshot (1829)](https://github.com/user-attachments/assets/a3ac3442-6c9e-405b-a72c-a495823a01c7)
+
+![Screenshot (1830)](https://github.com/user-attachments/assets/0dcc7251-365b-4a75-b25a-f8ac13d13c7f)
+
+![Screenshot (1831)](https://github.com/user-attachments/assets/e2a07be9-b65b-4054-a346-2656220a6a59)
+
+![Screenshot (1832)](https://github.com/user-attachments/assets/d6ccce67-6f98-42eb-8895-f6a3f842469b)
+
+![Screenshot (1833)](https://github.com/user-attachments/assets/4ff3aa23-4cbd-47c8-ba80-123c3abad2fd)
+
+![Screenshot (1834)](https://github.com/user-attachments/assets/16b73334-2876-4294-9533-bab9f174a1a9)
+
+![Screenshot (1835)](https://github.com/user-attachments/assets/e2eae6ee-2776-4e05-b4dc-bb31c56cd805)
+
+
+
+
 #### Power Planning and Pin Placement
+
+![Screenshot (1836)](https://github.com/user-attachments/assets/9911e24c-92fd-4159-89fc-adf992d057d7)
+
+![Screenshot (1837)](https://github.com/user-attachments/assets/c2eb9a2c-26bf-46a6-bef5-84baffd6e0a1)
+
+![Screenshot (1838)](https://github.com/user-attachments/assets/1c166bf1-cfb5-4f81-a75d-ab98d1394205)
+
+![Screenshot (1839)](https://github.com/user-attachments/assets/1dc25ba6-2386-4b58-84ee-83774aa05bdf)
+
+![Screenshot (1840)](https://github.com/user-attachments/assets/39a0035c-f33e-427b-be86-829092e8bbc7)
+
+![Screenshot (1841)](https://github.com/user-attachments/assets/4b5581d1-793c-4f1c-a761-96b280587143)
+
+![Screenshot (1842)](https://github.com/user-attachments/assets/020410e7-f7db-4352-aee4-0f9ac2682575)
+
+![Screenshot (1843)](https://github.com/user-attachments/assets/c1d3c4cb-c961-4672-a168-af006a71caf7)
+
+![Screenshot (1844)](https://github.com/user-attachments/assets/205e8da9-9435-4c8f-aee5-180bd6fac499)
+
+![Screenshot (1845)](https://github.com/user-attachments/assets/e7edbdd1-42b8-417c-b865-0e62535fb52a)
+
+![Screenshot (1846)](https://github.com/user-attachments/assets/ebdb1439-2538-44dd-985e-9c7fff0c3af2)
+
+
 
 - Ensure proper **pin placement** for efficient power distribution.
 
