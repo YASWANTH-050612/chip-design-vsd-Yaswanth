@@ -348,15 +348,217 @@ After **synthesis**, we follow steps like:
 
 ![Screenshot (1846)](https://github.com/user-attachments/assets/ebdb1439-2538-44dd-985e-9c7fff0c3af2)
 
+![Screenshot (1846)](https://github.com/user-attachments/assets/00d7dd32-5609-44b3-ba90-12a1228e53c5)
+
+![Screenshot (1847)](https://github.com/user-attachments/assets/5a4ac801-1ca3-4ab6-bef0-47ac22fd8c5d)
+
+![Screenshot (1848)](https://github.com/user-attachments/assets/3e47a777-fff2-4d07-bf5d-b3edb9d89022)
+
+![Screenshot (1849)](https://github.com/user-attachments/assets/4364764c-5ac2-4fe3-8593-3230f9ba4ee6)
+
+![Screenshot (1850)](https://github.com/user-attachments/assets/94d667e8-6585-4a28-ae16-202bcaac48ac)
+
+![Screenshot (1851)](https://github.com/user-attachments/assets/522437a1-49d0-4687-8b70-5867990ee6d2)
+
+### Logical cell placement blockage
+
+    #### 1) Bind netlist with physical cells
 
 
-- Ensure proper **pin placement** for efficient power distribution.
+![Screenshot (1851)](https://github.com/user-attachments/assets/7c28bf3f-7510-4c65-b217-39c4129afc19)
+
+
+![Screenshot (1852)](https://github.com/user-attachments/assets/5f551b45-b91b-4935-ac36-46461d907eb1)
+
+
+![Screenshot (1853)](https://github.com/user-attachments/assets/2a05409a-716f-4ca1-9d6b-09d09ffd8a09)
+
+
+![Screenshot (1854)](https://github.com/user-attachments/assets/21eb32e5-8e7f-40e8-b23c-1c0e3a844e6e)
+
+
+![Screenshot (1855)](https://github.com/user-attachments/assets/a486a228-9e92-420d-890a-230cf5bf489e)
+
+
+![Screenshot (1856)](https://github.com/user-attachments/assets/49c260c4-537a-4e65-a059-0edd88833695)
+
+
+![Screenshot (1857)](https://github.com/user-attachments/assets/8f8dd328-5965-41af-8806-79767952c833)
+
+
+![Screenshot (1858)](https://github.com/user-attachments/assets/2ae88d32-33ac-468c-95f7-bc1c7a1f21fe)
+
+
+
+  #### 2) Placement
+
+
+
+![Screenshot (1859)](https://github.com/user-attachments/assets/d3649042-542a-43c3-9282-b011e7987aba)
+
+
+![Screenshot (1860)](https://github.com/user-attachments/assets/56156810-83d1-4f9d-a90e-8cb84ac1bdce)
+
+
+- to solve the problem we optimize placement :
+
+   #### 3) OPtiize placement
+    
+- this topic is based o the signal integrity
+
+![Screenshot (1874)](https://github.com/user-attachments/assets/0e90e445-3faf-4f37-9203-8b0b36404842)
+
+
+![Screenshot (1875)](https://github.com/user-attachments/assets/6d337e6a-b8c3-4c33-9c78-751e55637ea7)
+
+![Screenshot (1876)](https://github.com/user-attachments/assets/b1612172-0100-4242-8d64-8b717401511a)
+
+![Screenshot (1877)](https://github.com/user-attachments/assets/895dc162-e234-4924-b818-23046f83dbe6)
+
+![Screenshot (1879)](https://github.com/user-attachments/assets/53caff80-fe8d-4259-b6b1-038f5daaa4e5)
+
+![Screenshot (1881)](https://github.com/user-attachments/assets/655f44d7-4267-414c-a8be-0945e8b5d1a2)
+
+![Screenshot (1882)](https://github.com/user-attachments/assets/a526057e-4c42-4d16-a214-913520035aa9)
+
+![Screenshot (1883)](https://github.com/user-attachments/assets/58e18204-b7e1-4e68-a2d6-a6314e76670e)
+
+![Screenshot (1884)](https://github.com/user-attachments/assets/b3aac2cf-5fa1-4f91-be61-3c1d2d0573f6)
+
+![Screenshot (1885)](https://github.com/user-attachments/assets/bd0c238c-4bbf-4398-b315-42bcd7a45372)
+
+![Screenshot (1886)](https://github.com/user-attachments/assets/7dd61650-61b3-457d-adbf-6883f70617f0)
+
+![Screenshot (1887)](https://github.com/user-attachments/assets/50939535-d204-4040-a14c-7d59d2d4707a)
+
+![Screenshot (1890)](https://github.com/user-attachments/assets/f3bacfff-fc25-4c8b-96a2-63255a5b9a61)
+
+![Screenshot (1888)](https://github.com/user-attachments/assets/72765e33-c6db-4d01-9976-6d3d06acc65f)
+
+
+
+- **Buffering**: Use repeaters (buffers) to maintain signal quality over distance
+- - Ensure proper **pin placement** for efficient power distribution.
 
 ---
+
+### Cell design flow
+
+![Screenshot (1894)](https://github.com/user-attachments/assets/4280f033-0bff-4fc3-8442-06bf8b86ad4b)
+![Screenshot (1895)](https://github.com/user-attachments/assets/be226c5f-eaa7-45b7-82f1-d16d4bf2db5f)
+
+![Screenshot (1896)](https://github.com/user-attachments/assets/bebfe825-1458-4598-a0d2-a3d7921af610)
+
+![Screenshot (1897)](https://github.com/user-attachments/assets/084b0b9f-5719-49fd-8f88-78170161d75d)
+
+![Screenshot (1898)](https://github.com/user-attachments/assets/3ae87524-42ac-4c49-a050-694faead8209)
+
+![Screenshot (1899)](https://github.com/user-attachments/assets/da16c189-56c1-4a77-a178-e9cf4b566643)
+
+![Screenshot (1900)](https://github.com/user-attachments/assets/e50b1b4d-4a44-45c3-81d4-c7694e30e6c6)
+
+![Screenshot (1901)](https://github.com/user-attachments/assets/c6fd8981-aed6-4114-8e10-e7e393ad3f97)
+
+![Screenshot (1902)](https://github.com/user-attachments/assets/bfb24dd1-41b7-425b-87d5-94e2042db1a3)
+
+![Screenshot (1903)](https://github.com/user-attachments/assets/3a05418f-f520-4a56-accb-3f0e7f18e719)
+
+![Screenshot (1904)](https://github.com/user-attachments/assets/bef40543-56cf-4a5a-81f7-9a796f418aa2)
+
+![Screenshot (1905)](https://github.com/user-attachments/assets/e6fe3f20-7b0b-4c7f-adfb-51f8fbecff88)
+
+![Screenshot (1906)](https://github.com/user-attachments/assets/b9fa9202-5ceb-452e-92f9-cbced1e9cfb0)
+
+![Screenshot (1907)](https://github.com/user-attachments/assets/b475d722-43da-4308-8ec3-5f6f583966d4)
+
+![Screenshot (1908)](https://github.com/user-attachments/assets/341c51e9-da47-4038-a45f-eaacae3bdc08)
+
+![Screenshot (1909)](https://github.com/user-attachments/assets/28f0372c-3300-458c-ad77-c6bfbb7df71c)
+
+![Screenshot (1910)](https://github.com/user-attachments/assets/afa27f01-a0c2-444b-8c0c-e958e92d99ea)
+
+![Screenshot (1911)](https://github.com/user-attachments/assets/37ae19dc-37dc-42ed-98c7-37f5da7ebddd)
+
+![Screenshot (1912)](https://github.com/user-attachments/assets/3019dcec-3a3b-4dce-be79-d01b2d34ab3a)
+
+![Screenshot (1913)](https://github.com/user-attachments/assets/10b5a576-7c16-4a6c-8298-20f154183e9f)
+
+![Screenshot (1914)](https://github.com/user-attachments/assets/1df072fd-6d1c-42cc-9813-d33ed9dcaaaa)
+
+
+  #### Characterization flow
+
+
+![Screenshot (1915)](https://github.com/user-attachments/assets/800d8164-b0e5-48de-af55-cb1202723dd3)
+
+![Screenshot (1920)](https://github.com/user-attachments/assets/b5118501-d214-42b5-a535-11cb344e5817)
+
+![Screenshot (1922)](https://github.com/user-attachments/assets/96bfcdc2-fd9f-4dc5-943b-bdf59c41f862)
+
+![Screenshot (1923)](https://github.com/user-attachments/assets/f83cb9c9-7732-41a7-a512-fe71aad75647)
+
+![Screenshot (1921)](https://github.com/user-attachments/assets/ec81a594-527b-4487-b7ca-8a151e78dbd2)
+
+![Screenshot (1922)](https://github.com/user-attachments/assets/489aa2ea-ae85-4f66-92df-1fb64b840ceb)
+
+![Screenshot (1923)](https://github.com/user-attachments/assets/73ab66f4-3b90-40c1-ad61-27fe1dc85be7)
+
+![Screenshot (1924)](https://github.com/user-attachments/assets/0daaf4e1-6b1a-4159-80ac-0f55be590ceb)
+
+![Screenshot (1925)](https://github.com/user-attachments/assets/2cbabe8a-e352-4fa9-9400-6dbe470a674d)
+
+![Screenshot (1926)](https://github.com/user-attachments/assets/71e9eeff-fc0f-494b-80c8-ae114f543783)
+
+![Screenshot (1927)](https://github.com/user-attachments/assets/540ed014-8bc0-4be1-a961-527400a98f47)
+
+![Screenshot (1928)](https://github.com/user-attachments/assets/17dc5f5a-069c-43e8-a2b7-103c2b28a550)
+
+![Screenshot (1929)](https://github.com/user-attachments/assets/0b5493ce-65e3-41d1-8d23-a734f81fa138)
+
+
 
 ### Timing and Signal Integrity
 
 - **Timing Characterization**: Check **propagation delay** and **transition time**.
+
+
+![Screenshot (1930)](https://github.com/user-attachments/assets/46754133-6867-4841-a25e-fc081d50fe1a)
+
+![Screenshot (1931)](https://github.com/user-attachments/assets/ed645609-63b8-4e27-91e0-b68ebdd09847)
+
+![Screenshot (1932)](https://github.com/user-attachments/assets/949ec5ac-7735-4fd5-af7e-6fb49129311c)
+
+![Screenshot (1933)](https://github.com/user-attachments/assets/d538d7b5-85b7-474b-9bf3-5ace535b34b4)
+
+![Screenshot (1934)](https://github.com/user-attachments/assets/611c3cf7-ccd6-4bbb-a24f-f1db14c9f013)
+
+![Screenshot (1935)](https://github.com/user-attachments/assets/7bd1de80-2c38-44e7-85fe-197dbddd0bf4)
+
+![Screenshot (1936)](https://github.com/user-attachments/assets/24f93497-7fc0-448e-b343-ccc3fa1fb469)
+
+![Screenshot (1937)](https://github.com/user-attachments/assets/b95add0b-ec04-468a-8929-136bcc6f9531)
+
+![Screenshot (1938)](https://github.com/user-attachments/assets/ff7679ba-170b-4c08-b2e0-5f259f2ac40a)
+
+![Screenshot (1939)](https://github.com/user-attachments/assets/9c5f5c03-416a-4739-8036-47074d85b9bb)
+
+![Screenshot (1940)](https://github.com/user-attachments/assets/c4e53678-07cf-440e-a706-e47d55ce965b)
+
+![Screenshot (1941)](https://github.com/user-attachments/assets/fc79e3bb-708d-4d8c-aebb-439c2cbf0270)
+
+![Screenshot (1942)](https://github.com/user-attachments/assets/9a087168-e690-449f-879b-b360d2ccb487)
+
+![Screenshot (1943)](https://github.com/user-attachments/assets/84372fce-98fa-4807-b769-d2ba6bf24ace)
+
+![Screenshot (1944)](https://github.com/user-attachments/assets/ca55d033-ff96-4dcb-8ae7-915917674411)
+
+![Screenshot (1945)](https://github.com/user-attachments/assets/635a1fba-7bbc-4475-9841-7ab83f590755)
+
+
+
+
+
+
 - **Spice Decks**: Use spice simulations to measure delays and waveforms for rise and fall times.
   
 ---
@@ -364,6 +566,8 @@ After **synthesis**, we follow steps like:
 ### Fabrication Process: 16nm CMOS
 
 - In some cases, the **photolithography** process involves UV light, Boron, Arsenic, and other materials.
+
+
 
 ---
 
@@ -377,6 +581,5 @@ After **synthesis**, we follow steps like:
 
 - Ensure the grid boxes are numbered and the signal integrity is maintained.
 
-#### Final Steps:
 
-- **Buffering**: Use repeaters (buffers) to maintain signal quality over distance.
+
